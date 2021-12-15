@@ -14,7 +14,7 @@ function showMessage(text, color, top, left) {
     arrTopVal.push(top);
     arrLeftVal.push(left);
     arr.push(div);
-    for (i = 0; i < arrLeftVal.length; i++) {
+    for (i = 0; i < arr.length; i++) {
         if (arr.length > 3) {
             const delElem = arr.shift();
             delElem.remove(); // удаляю лишний элемент из массива где находятся все сообщения
