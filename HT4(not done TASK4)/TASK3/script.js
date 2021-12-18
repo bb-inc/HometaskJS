@@ -2,7 +2,7 @@ let arrTopVal = [];
 let arrLeftVal = [];
 let arr = [];
 
-function showMessage(text, color, top, left) {
+const showMessage = (text, color, top, left) => {
     const div = document.createElement('div');
     div.classList = ('message');
     div.innerText = (text);
