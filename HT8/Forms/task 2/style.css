@@ -2,6 +2,10 @@
     font-family: monospace;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     position: relative;
 }
