@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background-color: purple;
+}
+
+.modalWindow {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: calc(50% + 250px);
+    left: calc(50% - 350px);
+    background-color: plum;
+    color: rgb(0, 17, 255);
+    font-family: monospace;
+    font-size: 25px;
+    padding: 20px 20px;
+}
+
+.modalWindow ol {
+    width: fit-content;
+}
+
+.modalNone {
+    display: none;
+}
+
