@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="formMoney">
+            <label for="number">Введите доход или/и расход</label>
+            <input class="moneyVal" type="text" name='moneyVal'>
+            <div class="checkBox">
+                <p><input type="radio" name="radio" id="income"><span> Доход</span></p>
+                <p><input type="radio" name="radio" id="consumption"><span> Расход</span></p>
+            </div>
+            <button id='btnMoney' ; type="submit">Рассчитать</button>
+        </form>
+        <div id="balance"></div>
+        <div class="columns">
+            <div id="columnIncome"></div>
+            <div id="columnCons"></div>
+        </div>
+    </div>
+</body>
+
+</html>
